@@ -58,9 +58,9 @@ public class LoginActivity extends AppCompatActivity {
     private void openVeraScreen() {
 
         VeraConfiguration.Builder()
-                .setClientAppID("vera_client_app")
+                .setClientAppID("cg1_msp_vera_demo")
                 .setLanguage(Languages.EN)
-                    .startWithoutLogin(this);
+                .startWithoutLogin(this);
 
 
     }
